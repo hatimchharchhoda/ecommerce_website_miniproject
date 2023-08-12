@@ -1,0 +1,630 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* these is navigation */
+
+
+.main-navbar {
+    display: inline-block;
+}
+
+.navbar ul {
+    display: flex;
+    max-width: 720px;
+    margin: auto;
+    margin-left: 13px;
+}
+
+.navbar ul li {
+    list-style: none;
+    padding: 34px;
+    transition: all .3s ease-out 0s;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    transition: all .3s ease-out 0s;
+}
+
+.navbar ul :hover {
+    background-color: rgb(204, 234, 255);
+    cursor: pointer;
+    
+}
+
+.navbar ul li a:hover {
+    color: rgb(231, 65, 79);
+    cursor: pointer;
+}
+
+.main-navbar .navbar {
+    display: flex;
+}
+
+.logo {
+    padding: 13px;
+    width: 100px;
+    filter: invert(100%);
+    margin: 9px 0px;
+    border-radius: 44px;
+}
+
+P {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 35px;
+    margin-top: 42px;
+
+}
+
+
+.navbar input {
+    margin-left: 36px;
+    margin-top: 49px;
+    margin-bottom: 49px;
+    width: 260px;
+}
+
+.search {
+    width: 31px;
+    margin: 50px -30px 50px -6px;
+}
+
+.loginbtn {
+    text-decoration: none;
+    margin: 12px -190px 0px 71px;
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+}
+
+.loginbtn:hover {
+    color: #6b6bef;
+}
+
+.wishlist {
+    width: 39px;
+    margin: 51px 0px 32px 63px;
+    border-radius: 14px;
+}
+
+.cart {
+    width: 70px;
+    margin: 43px -75px 0px 2px;
+    border-radius: 450px;
+}
+
+
+/* these is body intro  */
+
+
+.video1 {
+    position: static;
+    width: 100%;
+}
+
+/* these is women fashion */
+
+
+.women1 {
+    display: flex;
+    margin: 0%;
+}
+.women p {
+    padding-left: 589px;
+    font-size: 54px;
+    background: lightpink;
+
+}
+
+.w1 {
+    padding: 15px 26px 12px 27px;
+    transition: all 0.4s ease-in-out;
+}
+.w1:hover{
+    transform: translatey(-7px);
+}
+.w2 {
+    padding: 15px 26px 12px 27px;
+    transition: all 0.4s ease-in-out;
+}
+.w2:hover{
+    transform: translatey(-7px);
+}
+.w3 {
+    padding: 15px 26px 12px 27px;
+    transition: all 0.4s ease-in-out;
+}
+.w3:hover{
+    transform: translatey(-7px);
+}
+.w11 {
+    padding: 50px 35px 5px 35px;
+    transition: all 0.4s ease-in-out;
+}
+.w11:hover{
+    transform: translatey(-7px);
+}
+.w22 {
+    padding: 50px 35px 5px 35px;
+    transition: all 0.4s ease-in-out;
+}
+.w22:hover{
+    transform: translatey(-7px);
+}
+.w33 {
+    padding: 50px 35px 5px 35px;
+    transition: all 0.4s ease-in-out;
+}
+.w33:hover{
+    transform: translatey(-7px);
+}
+.w44 {
+    padding: 50px 35px 5px 35px;
+    transition: all 0.4s ease-in-out;
+}
+.w44:hover{
+    transform: translatey(-7px);
+}
+.w55 {
+    padding: 50px 35px 5px 35px;
+    transition: all 0.4s ease-in-out;
+}
+.w55:hover{
+    transform: translatey(-7px);
+}
+.w66 {
+    padding: 50px 35px 5px 35px;
+    transition: all 0.4s ease-in-out;
+}
+.w66:hover{
+    transform: translatey(-7px);
+}
+.price b {
+    padding: 12px 433px 0px 28px;
+    font-size: larger;
+}
+
+.buynow a {
+    text-decoration: none;
+    padding: 5px 233px 5px 198px;
+    background-color: black;
+    color: lightpink;
+    text-align: center;
+    font-size: x-large;
+}
+
+.buynow a:hover {
+    background-color: #72007c;
+}
+
+.price1 b {
+    padding: 0px 162px 0px 38px;
+    font-size: large;
+}
+
+.buynow1 a {
+    text-decoration: none;
+    padding: 3px 95px 3px 95px;
+    background-color: black;
+    color: lightpink;
+    text-align: center;
+    font-size: large;
+}
+
+.buynow1 a:hover {
+    background-color: #72007c;
+}
+.offer img {
+    margin: 15px 0px 0px 0px;
+    width: 1580px;
+}
+
+.video2 {
+    position: static;
+    width: 70%;
+    padding: 45px 0px 0px 237px;
+
+}
+
+/* these is men section  */
+
+
+.men1 {
+    display: flex;
+    margin: 0%;
+    transition: all 0.6s ease-in-out;
+}
+
+.men p {
+    padding-left: 589px;
+    font-size: 54px;
+    background: rgb(196, 193, 223);
+    margin-top: 50px;
+    margin-bottom: -13px;
+}
+
+.m1 {
+    padding: 50px 35px 5px 35px;
+    transition: all 0.4s ease-in-out;
+}
+.m1:hover{
+    transform: translatey(-7px);
+}
+.m2 {
+    padding: 50px 35px 5px 35px;
+    transition: all 0.4s ease-in-out;
+}
+.m2:hover{
+    transform: translatey(-7px);
+}
+.m3 {
+    padding: 50px 35px 5px 35px;
+    transition: all 0.4s ease-in-out;
+}
+.m3:hover{
+    transform: translatey(-7px);
+}
+.m4 {
+    padding: 50px 35px 5px 35px;
+    transition: all 0.4s ease-in-out;
+}
+.m4:hover{
+    transform: translatey(-7px);
+}
+.m5 {
+    padding: 50px 35px 5px 35px;
+    transition: all 0.4s ease-in-out;
+}
+.m5:hover{
+    transform: translatey(-7px);
+}
+.m6 {
+    padding: 50px 35px 5px 35px;
+    transition: all 0.4s ease-in-out;
+}
+.m6:hover{
+    transform: translatey(-7px);
+}
+.pricem b {
+    padding: 0px 162px 0px 38px;
+    font-size: large;
+}
+
+.buynowm a {
+    text-decoration: none;
+    padding: 3px 95px 3px 95px;
+    background-color: black;
+    color: rgb(196, 193, 223);
+    text-align: center;
+    font-size: large;
+}
+
+.buynowm a:hover {
+    background-color: #070f57;
+}
+
+.offer2 {
+    width: 90%;
+    margin: 25px 37px 20px 82px;
+}
+
+.menoffer{
+    display: flex;
+}
+
+.offer3{
+    width: 50%;
+    margin: 20px 0px 0px 0px;
+}
+
+.offer4 {
+    width: 50%;
+    margin: 20px 0px 0px 0px;
+}
+
+
+
+/* these is kid section  */
+
+
+
+.kid1 {
+    display: flex;
+    margin: 0%;
+    transition: all 0.6s ease-in-out;
+}
+
+.kid p {
+    padding-left: 658px;
+    font-size: 54px;
+    background: rgb(221 223 193);
+    margin-top: -7px;
+    margin-bottom: -23px;
+}
+
+.k1 {
+    padding: 50px 35px 5px 35px;
+    transition: all 0.4s ease-in-out;
+}
+.k1:hover{
+    transform: translatey(-7px);
+}
+.k2 {
+    padding: 50px 35px 5px 35px;
+    transition: all 0.4s ease-in-out;
+}
+.k2:hover{
+    transform: translatey(-7px);
+}
+.k3 {
+    padding: 50px 35px 5px 35px;
+    transition: all 0.4s ease-in-out;
+}
+.k3:hover{
+    transform: translatey(-7px);
+}
+.k4 {
+    padding: 50px 35px 5px 44px;
+    transition: all 0.4s ease-in-out;
+}
+.k4:hover{
+    transform: translatey(-7px);
+}
+.k5 {
+    padding: 50px 65px 5px 52px;
+    transition: all 0.4s ease-in-out;
+}
+.k5:hover{
+    transform: translatey(-7px);
+}
+.k6 {
+    padding: 50px 35px 5px 35px;
+    transition: all 0.4s ease-in-out;
+}
+.k6:hover{
+    transform: translatey(-7px);
+}
+.pricek b {
+    padding: 0px 162px 0px 38px;
+    font-size: large;
+}
+
+.buynowk a {
+    text-decoration: none;
+    padding: 3px 95px 3px 95px;
+    background-color: black;
+    color: rgb(221 223 193);
+    text-align: center;
+    font-size: large;
+}
+
+.buynowk a:hover {
+    background-color: #505311;
+}
+
+.k11 {
+    padding: 50px 30px 5px 30px;
+    transition: all 0.4s ease-in-out;
+}
+.k11:hover{
+    transform: translatey(-7px);
+}
+.k22 {
+    padding: 50px 35px 5px 35px;
+    transition: all 0.4s ease-in-out;
+}
+.k22:hover{
+    transform: translatey(-7px);
+}
+.k33 {
+    padding: 50px 35px 5px 35px;
+    transition: all 0.4s ease-in-out;
+}
+.k33:hover{
+    transform: translatey(-7px);
+}
+.k44 {
+    padding: 50px 35px 5px 44px;
+    transition: all 0.4s ease-in-out;
+}
+.k44:hover{
+    transform: translatey(-7px);
+}
+.k55 {
+    padding: 50px 35px 5px 23px;
+    transition: all 0.4s ease-in-out;
+}
+.k55:hover{
+    transform: translatey(-7px);
+}
+.k66 {
+    padding: 50px 35px 5px 35px;
+    transition: all 0.4s ease-in-out;
+}
+.k66:hover{
+    transform: translatey(-7px);
+}
+.offer5 {
+    width: 100%;
+    margin: 15px 0px -40px 0px
+}
+
+
+
+/* these is sport area  */
+
+
+
+.sport1 {
+    display: flex;
+    margin: 0%;
+    transition: all 0.6s ease-in-out; 
+}
+
+.sport p {
+    padding-left: 658px;
+    font-size: 54px;
+    background: rgb(177 190 199);
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.s1 {
+    padding: 50px 35px 5px 35px;
+    transition: all 0.4s ease-in-out;  
+}
+.s1:hover{
+    transform: translatey(-7px);
+}
+.s2 {
+    padding: 50px 35px 5px 35px;
+    transition: all 0.4s ease-in-out;
+}
+.s2:hover{
+    transform: translatey(-7px);
+}
+.s3 {
+    padding: 50px 35px 5px 35px;
+    transition: all 0.4s ease-in-out;
+}
+.s3:hover{
+    transform: translatey(-7px);
+}
+.s4 {
+    padding: 50px 35px 5px 44px;
+    transition: all 0.4s ease-in-out;
+}
+.s4:hover{
+    transform: translatey(-7px);
+}
+.s5 {
+    padding: 50px 65px 5px 52px;
+    transition: all 0.4s ease-in-out;
+}
+.s5:hover{
+    transform: translatey(-7px);
+}
+.s6 {
+    padding: 50px 35px 5px 35px;
+    transition: all 0.4s ease-in-out;
+}
+.s6:hover{
+    transform: translatey(-7px);
+}
+.prices b {
+    padding: 0px 162px 0px 38px;
+    font-size: large;
+}
+
+.buynows a {
+    text-decoration: none;
+    padding: 3px 95px 3px 95px;
+    background-color: black;
+    color: rgb(223, 193, 193);
+    text-align: center;
+    font-size: large;
+}
+
+.buynows a:hover {
+    background-color: #5e2906;
+}
+
+.offer6 {
+    width: 100%;
+    margin: 15px 0px -40px 0px
+}
+
+
+
+/* these is footer ssection  */
+
+
+
+.footer {
+    margin: 117px 0px -26px 0px;
+    background-color: #ebecc6;
+}
+
+.barbtn {
+    display: flex;
+}
+
+.footer b {
+    margin: 10px 132px 5px 127px;
+    font-size: 22px;
+}
+
+.ashop li a {
+    text-decoration: none;
+    list-style: none;
+    margin: 36px 256px 14px 81px;
+    font-size: 20px;
+}
+
+.ashop li {
+    list-style: none;
+    line-height: 45px;
+}
+
+.info {
+    font-size: 20px;
+    margin: 10px 0px 1px -55px;
+}
+
+.info li {
+    list-style: none;
+    line-height: 45px;
+}
+
+.info li a {
+    text-decoration: none;
+}
+
+.help {
+    margin: 6px 5px 1px 143px;
+    font-size: 20px;
+}
+
+.help li {
+    list-style: none;
+    line-height: 45px;
+}
+
+.help li a {
+    text-decoration: none;
+}
+
+.news {
+    font-size: 20px;
+    margin: 10px 0px 1px -55px;
+    list-style: none;
+}
+
+.part2 li {
+    list-style: none;
+    line-height: 45px;
+}
+
+.news li a {
+    text-decoration: none;
+    margin: 0px 0px 0px 261px;
+}
+
+.part1 {
+    line-height: 18px;
+    margin: 16px 4px 35px 210px;
+    font-size: 17px;
+    list-style: none;
+}
+.copyright{
+    margin: 58px 0px 60px 358px
+}
+.space{
+    margin-top: -40px;
+}
